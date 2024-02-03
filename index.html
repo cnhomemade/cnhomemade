@@ -7,12 +7,12 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('/xx/xx.jpg');
+  background-image: url('/xx/xxx.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
-  color: white;
+  color: black;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
@@ -45,7 +45,7 @@ hr {
 <body>
 
 <div class="bgimg">
-  <div class="topleft">
+  <div class="topleft" style="display: none;">
     <p>Logo</p>
   </div>
   <div class="middle">
@@ -53,14 +53,14 @@ hr {
     <hr>
     <p id="demo" style="font-size:30px"></p>
   </div>
-  <div class="bottomleft">
+  <div class="bottomleft" style="display: none;" >
     <p>Some text</p>
   </div>
 </div>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+var countDownDate = new Date("Feb 14, 2024 23:59:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
